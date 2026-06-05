@@ -5,8 +5,16 @@
 <h1 align="center">Infection</h1>
 <p align="center">A Minecraft plugin that adds the Hypixel minigame Infection to your server.</p>
 
+<div align="center">
+
+[![Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/modrinth_vector.svg)](https://modrinth.com/plugin/infection-minigame)
+[![discord-plural](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/social/discord-plural_46h.png)](https://discord.gg/wGKncuKFAw)
+
+</div>
+
 ## Overview
 - How to use
+- What's new?
 - Permissions
 
 ## How to use
@@ -20,6 +28,13 @@
 7. You can now join the map using `/infection join <map-name>`.
 
 Use `/infection help guide` and `/infection help commands` for more information.
+
+## What's new?
+
+### Easily select map regions using the Selection Wand
+Use `/infection wand` to get the Selection Wand
+
+<img width="2492" height="1355" alt="image" src="https://github.com/user-attachments/assets/c85c0810-92b5-4be3-a5dc-da411cd87822" />
 
 ## Permissions
 ```yml
