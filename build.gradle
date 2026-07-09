@@ -5,7 +5,10 @@ plugins {
 }
 
 group = 'net.kalbskinder'
-version = '2.0.0'
+version = '2.0.1'
+
+def targetJavaVersion = 25
+def serverVersion = "26.2"
 
 repositories {
     mavenCentral()
@@ -20,7 +23,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:26.1.2.build.+")
+    compileOnly("io.papermc.paper:paper-api:${serverVersion}.build.+")
     implementation "net.kyori:adventure-text-minimessage:4.22.0"
     compileOnly("org.projectlombok:lombok:1.18.46")
     annotationProcessor("org.projectlombok:lombok:1.18.46")
@@ -38,11 +41,10 @@ tasks {
         // Configure the Minecraft version for our task.
         // This is the only required configuration besides applying the plugin.
         // Your plugin's jar (or shadowJar if present) will be used automatically.
-        minecraftVersion("26.1.2")
+        minecraftVersion(serverVersion)
     }
 }
 
-def targetJavaVersion = 25
 java {
     def javaVersion = JavaVersion.toVersion(targetJavaVersion)
     sourceCompatibility = javaVersion
