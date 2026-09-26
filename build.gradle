@@ -5,10 +5,10 @@ plugins {
 }
 
 group = 'net.kalbskinder'
-version = '2.0.1'
+version = '2.0.2'
 
 def targetJavaVersion = 25
-def serverVersion = "26.2"
+def serverVersion = "26.3"
 
 repositories {
     mavenCentral()
@@ -27,7 +27,7 @@ dependencies {
     implementation "net.kyori:adventure-text-minimessage:4.22.0"
     compileOnly("org.projectlombok:lombok:1.18.46")
     annotationProcessor("org.projectlombok:lombok:1.18.46")
-    implementation("net.kalbskinder:pluginwizard-core:1.3.4")
+    implementation("net.kalbskinder:pluginwizard-core:1.4.3")
 }
 
 shadowJar {
