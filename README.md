@@ -34,7 +34,7 @@ Use `/infection help guide` and `/infection help commands` for more information.
 ### Easily select map regions using the Selection Wand
 Use `/infection wand` to get the Selection Wand
 
-<img width="2492" height="1355" alt="image" src="https://github.com/user-attachments/assets/c85c0810-92b5-4be3-a5dc-da411cd87822" />
+<img alt="image" src="https://github.com/user-attachments/assets/c85c0810-92b5-4be3-a5dc-da411cd87822" />
 
 ## Permissions
 ```yml
